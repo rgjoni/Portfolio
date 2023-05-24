@@ -2,7 +2,6 @@ import {FiFolder} from "react-icons/fi"
 import {FaReact} from "react-icons/fa"
 import {SiTailwindcss} from "react-icons/si"
 import {BsBoxArrowUpRight} from 'react-icons/bs'
-import Image from "next/image";
 import {DiVisualstudio} from "react-icons/di"
 import {GiArtificialHive} from "react-icons/gi"
 import {SiThealgorithms} from "react-icons/si"
@@ -14,7 +13,7 @@ import {SiMysql} from "react-icons/si"
 import {SiSwift} from "react-icons/si"
 import {SiXcode} from "react-icons/si"
 import {SiFigma} from "react-icons/si"
-export const Projects = () => {
+ const Projects = () => {
   const projs = [
     {
       id:1,
@@ -113,4 +112,4 @@ export const Projects = () => {
     </div>
   );
         }  
-  
+export default Projects
