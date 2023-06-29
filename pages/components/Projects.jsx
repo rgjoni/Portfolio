@@ -83,17 +83,18 @@ import {SiFigma} from "react-icons/si"
 
   
   return (
-    <div className="scroll-margin-top--20 mt-[-20%] pb-5 text-center bg-[#091930]">
-      <div id="projects" className="scroll-margin-top-[-20]"></div>
+    <div className=" w-full h-full scroll-margin-top--20 mt-[-20%] py-5 text-center bg-[#091930]">
+      <div id="projects" className="scroll-margin-top-[-20] mt-32"></div>
       <h2 className="text-4xl font-mono text-white pb-5">Noteworthy Projects</h2>
       <h3 className="font-sans text-[#67EBCF]">Personal Projects I'm proud to share!</h3>
   
-      <div className="flex flex-wrap justify-center ">
+      <div className="flex flex-wrap justify-center mt-8 ">
         {projs.map(({ id, link, title, description, child }) => (
           <div
             key={id}
             className="group m-4 bg-[#112240] w-[425px] h-[375px] rounded flex flex-col hover:shadow-md hover:shadow-blue-500 hover:scale-105 duration-500"
             style={{ minWidth: '425px' }}
+            onClick={() => window.open(link, "_blank")}
           >
             <div className="flex justify-between items-center p-4">
               <FiFolder size={50} className="hidden" />

@@ -1,7 +1,8 @@
+import React from "react"
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#091930] bg-gradient-to-b text-white">
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-start lg:flex-row lg:justify-center h-full">
+    <div name="about" className="w-full min-h-screen bg-[#091930] bg-gradient-to-b text-white flex flex-col justify-center items-center">
+    <div className="max-w-screen-lg p-4 mx-auto">
         <div className="lg:w-full lg:h-full">
           <div className="pb-8">
             <p className="text-4xl text-[#8892B1] text-center underline-offset-2 border-gray-500 font-mono">About Me</p>
@@ -15,10 +16,10 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex items-center justify-center mb-40 mt-10 lg:ml-5">
+        <div className="flex items-center justify-center mb-40 mt-10 lg:ml-5 ">
           <div className="relative w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28">
-            <div className="absolute lg:mt-[-150%] lg:ml-40 top-0 w-full h-full bg-[#091930] transform rotate-45 border-4 border-[#67EBCF]"></div>
-            <div className="absolute lg:mt-[-150%] lg:ml-40 flex items-center justify-center top-0 w-full h-full text-[#67EBCF] font-bold text-lg md:text-xl lg:text-2xl xl:text-3xl">RG</div>
+            <div className="absolute lg:mt-[-10%] lg:ml-[10%] top-0 w-full h-full bg-[#091930] transform rotate-45 border-4 border-[#67EBCF]"></div>
+            <div className="absolute lg:mt-[-10%] lg:ml-[10%]  flex items-center justify-center top-0 w-full h-full text-[#67EBCF] font-bold text-lg md:text-xl lg:text-2xl xl:text-3xl">RG</div>
           </div>
         </div>
       </div>
