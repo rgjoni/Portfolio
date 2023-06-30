@@ -44,6 +44,7 @@ import {SiFigma} from "react-icons/si"
     {
       id:2,
       title: "This website!",
+      link:"https://randigjoni.com",
       description: "Highlighting how Javascript,React and Tailwind come together to create a beautiful website",
       child:(
         <>

@@ -43,16 +43,16 @@ const NavBar = () => {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden "
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden  hover:scale-105 duration-200 hover:text-[#67EBCF] "
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-[#091930] text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-[#091930] text-gray-500 ">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-sans py-6 text-xl"
+              className="px-4 cursor-pointer capitalize font-sans py-6 text-xl  hover:scale-105 duration-200 hover:text-[#67EBCF]"
             >
              <Link onClick = {() =>setNav(!nav)} to = {link} smooth duration = {500}>{link}</Link>
             </li>
