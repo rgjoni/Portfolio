@@ -12,7 +12,7 @@ const About = () => {
           </p>
           <br />
           <p className="text-xl font-sans text-[#8892B1]">
-            During my time at USC, I've had the privilege of working on my schools Experiential Learning Website to develop a platform that focuses on finding new ways of teaching students. Also I had the opportunity to work at a startup where I developed a hobby based social media app from the ground up. Today I work at Hymes,Barrera and Kim where I use my knowledge of Computer Science to make real-world applications that help people in their day to day life
+            During my time at USC, I've had the privilege of working on my schools Experiential Learning Website to develop a platform that focuses on finding new ways of teaching students. Also I had the opportunity to work at a startup where I developed a hobby based social media app from the ground up. Today I work at Hymes, Barrera and Kim where I use my knowledge of Computer Science to make real-world applications that help people in their day to day life.
           </p>
         </div>
 
